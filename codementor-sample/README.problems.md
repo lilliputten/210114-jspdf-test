@@ -1,0 +1,3 @@
+- Color stylization can be applied only with inline-styles
+- Need to investigate method for rendering cyrillic characters.
+- Images causes to crash renderer.

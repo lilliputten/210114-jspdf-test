@@ -1,0 +1,31 @@
+# @changed 2020.12.28, 22:04
+
+# Environment & system files & folders
+node_modules*
+\!UNUSED
+
+# # Do not store due to wrong WebUiCore checksums? Or to remove `WebUiCore` from `package-lock.json`?
+# package-lock.json
+
+# IDE
+.idea
+# /.vscode/
+*.session
+
+# Swap, backup & temp files
+*.sw?
+*.tmp
+*.bak
+*~
+*_
+*.orig
+
+# Unresolved conflicts:
+*_BACKUP_*
+*_BASE_*
+*_LOCAL_*
+*_REMOTE_*
+
+# Collected crashed session files:
+*-crashed-session.txt
+*-crashed-session.tgz

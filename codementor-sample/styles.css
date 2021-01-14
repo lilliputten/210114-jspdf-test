@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.page-break {
+  page-break-after: always;
+  page-break-inside: avoid;
+  clear:both;
+}
+
+.page-break-before {
+  page-break-before: always;
+  page-break-inside: avoid;
+  clear:both;
+}
+
+.colorClass {
+  /* NOTE: Can use only inline style colors. */
+  /* background-color: #0f0; */
+  /* text-color: #fff; */
+  text-color: #0f0;
+}
+
+#html-content {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  overflow: auto;
+  width: 400px;
+}
+
+#pdf-demo {
+  position: absolute;
+  /* right: 0; */
+  top: 0;
+  bottom: 0;
+  left: 430px;
+  height: 100%;
+  width: 650px;
+  /* padding: 20px; */
+}
